@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="secondary">
+      <ion-title text-center color="primary">
+          <ion-icon name="ios-leaf" color="primary"></ion-icon>
+          Detalhes do Ecoponto
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="centralizar"> <img src="../assets/imgs/image.png" height="150" width="250"> </div>
+<br>  
+<br>
+<div class="centralizar">
+  <ion-icon name="md-information-circle"color="primary"></ion-icon> Ecoponto {{Locais.nome}} </div> 
+<br> 
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Bairro: {{Locais.nome}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Endereço: {{Locais.endereco}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Telefone: {{Locais.telefone}} </p>
+  <p> <ion-icon name="md-return-right"color="primary"></ion-icon> Horário de Funcionamento:  </p>
+  <div class="centralizar">
+    <button ion-button icon-end color="primary">
+        Abrir no Mapa
+    <ion-icon name="md-pin" color="secondary"></ion-icon>
+      </button>
+    <button ion-button icon-end>
+        Avaliar
+        <ion-icon name="md-star" color="secondary"></ion-icon>
+      </button>
+  </div>
+</ion-content>
